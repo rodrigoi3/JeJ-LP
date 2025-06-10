@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>J&J Contabilidade - Transforme Seu Negócio</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- SEO Meta Tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>J&J - Consultoria Contábil</title>
+  <meta name="description" content="Consultoria contábil especializada para empresas de todos os portes. Soluções em contabilidade, gestão fiscal, planejamento tributário e abertura de empresas. Atendimento personalizado para o seu negócio.">
+  <meta name="keywords" content="consultoria contábil, contabilidade empresarial, gestão fiscal, planejamento tributário, abertura de empresas, assessoria contábil, serviços contábeis, consultoria financeira, escritório de contabilidade, consultor contábil">
+  <meta name="author" content="i3digital">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.jjconsultoriacontabil.com.br/">
+  <meta property="og:title" content="J&J - Consultoria Contábil">
+  <meta property="og:description" content="Consultoria contábil especializada para empresas de todos os portes. Soluções em contabilidade, gestão fiscal, planejamento tributário e abertura de empresas. Atendimento personalizado para o seu negócio.">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://www.jjconsultoriacontabil.com.br/">
+  <meta property="twitter:title" content="J&J - Consultoria Contábil">
+  <meta property="twitter:description" content="Consultoria contábil especializada para empresas de todos os portes. Soluções em contabilidade, gestão fiscal, planejamento tributário e abertura de empresas. Atendimento personalizado para o seu negócio.">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://www.jjconsultoriacontabil.com.br/">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="src/imgs/jj-favicon.ico">
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "J&J - Consultoria Contábil",
+    "url": "https://www.jjconsultoriacontabil.com.br",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+55-14-99715-9611",
+      "contactType": "Customer Service"
+    },
+  }
+  </script>
+
+  <!-- Fonts & Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Google Tag Manager Preconnect -->
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
     <style>
         * {
             font-family: 'Inter', sans-serif;
@@ -187,22 +233,6 @@
 </head>
 
 <body class="bg-white text-slate-900 overflow-x-hidden">
-    <!-- Floating Navigation -->
-    <nav class="fixed top-6 left-1/2 transform -translate-x-1/2 z-50 glass-morphism rounded-full px-8 py-4 flex items-center justify-between w-[90vw] max-w-5xl shadow-lg">
-        <!-- Espaço para logo -->
-        <div class="flex items-center space-x-3">
-            <!-- Substitua o src abaixo pela sua logo -->
-            <img src="logo.png" alt="Logo J&J" class="h-10 w-10 rounded-full bg-blue-100 object-contain shadow" />
-            <div class="text-xl font-bold text-gradient">J&J</div>
-        </div>
-        <div class="hidden md:flex space-x-6">
-            <a href="#home" class="hover:text-blue-700 transition-all duration-300">Início</a>
-            <a href="#services" class="hover:text-blue-700 transition-all duration-300">Serviços</a>
-            <a href="#about" class="hover:text-blue-700 transition-all duration-300">Sobre</a>
-            <a href="#contact" class="hover:text-blue-700 transition-all duration-300">Contato</a>
-        </div>
-    </nav>
-
     <!-- Hero Section -->
     <section id="home" class="min-h-screen relative overflow-hidden bg-pattern">
         <div class="floating-shapes"></div>
@@ -215,53 +245,31 @@
         <div class="relative z-10 flex items-center justify-center min-h-screen px-4">
             <div class="text-center max-w-6xl mx-auto">
                 <!-- Logo animado -->
-                <div class="mb-8 animate-float">
-                    <div class="w-32 h-32 mx-auto bg-gradient-to-br from-blue-500 to-blue-700 rounded-full flex items-center justify-center text-4xl font-bold shadow-2xl animate-pulse-glow text-white">
-                        J&J
-                    </div>
+                <div class="mb-8">
+                <div class="w-32 h-32 mx-auto rounded-full overflow-hidden animate-pulse-glow">
+                    <img src="src/imgs/Logo-J&J.webp" alt="Logo do Cliente" class="w-full h-full object-fill" />
                 </div>
+            </div>
+
                 <h1 class="text-5xl md:text-8xl font-black mb-6 animate-fadeInUp leading-tight">
                     <span class="text-gradient">Contabilidade</span><br>
-                    <span class="text-blue-900">que Transforma</span><br>
-                    <span class="text-blue-700">Negócios</span>
+                    <span class="text-blue-900">Personalizada </span><br>
+                    <span class="text-blue-700">Para Seu Negócio</span>
                 </h1>
                 <p class="text-xl md:text-2xl text-blue-700 mb-8 max-w-3xl mx-auto leading-relaxed animate-fadeInUp" style="animation-delay: 0.3s;">
-                    Revolucione sua gestão financeira com nossa expertise em contabilidade digital.
-                    <span class="text-blue-500 font-semibold">Resultados extraordinários</span> para empresas visionárias.
+                    Revolucione sua gestão financeira com nossa expertise em contabilidade.
+                    <span class="text-blue-500 font-semibold">Resultados extraordinários</span> para sua Empresa.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fadeInUp mb-12" style="animation-delay: 0.6s;">
-                    <a href="https://wa.me/5519999999999" target="_blank"
+                    <a href="https://wa.me/55149971596119" rel=”noopener” target="_blank"
                        class="group relative btn-primary font-bold py-4 px-8 rounded-full text-lg whatsapp-pulse">
                         <span class="relative z-10 flex items-center">
                             <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
                                 <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
                             </svg>
-                            Consultoria Gratuita
+                            Fale Conosco
                         </span>
                     </a>
-                    <button class="group btn-secondary font-bold py-4 px-8 rounded-full text-lg">
-                        <span class="flex items-center">
-                            <svg class="w-6 h-6 mr-2 group-hover:animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
-                            </svg>
-                            Ver Nossos Resultados
-                        </span>
-                    </button>
-                </div>
-                <!-- Stats animados -->
-                <div class="grid grid-cols-3 gap-8 animate-fadeInUp" style="animation-delay: 0.9s;">
-                    <div class="text-center">
-                        <div class="number-counter text-blue-600 mb-2" data-count="500">0</div>
-                        <div class="text-blue-700 text-sm md:text-base">Empresas Atendidas</div>
-                    </div>
-                    <div class="text-center">
-                        <div class="number-counter text-blue-400 mb-2" data-count="98">0</div>
-                        <div class="text-blue-700 text-sm md:text-base">% Satisfação</div>
-                    </div>
-                    <div class="text-center">
-                        <div class="number-counter text-blue-900 mb-2" data-count="15">0</div>
-                        <div class="text-blue-700 text-sm md:text-base">Anos Experiência</div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -278,65 +286,74 @@
         <div class="max-w-7xl mx-auto">
             <div class="text-center mb-16 scroll-reveal">
                 <h2 class="text-5xl font-black mb-4">
-                    <span class="text-gradient">Serviços</span> Premium
+                    <span class="text-gradient">Serviços</span>
                 </h2>
                 <p class="text-xl text-blue-700 max-w-2xl mx-auto">
-                    Soluções completas e inovadoras para impulsionar seu negócio ao próximo nível
+                    Soluções completas para impulsionar seu negócio ao próximo nível
                 </p>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="glass-morphism rounded-3xl p-8 hover-lift scroll-reveal feature-card group">
-                    <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-700 rounded-2xl flex items-center justify-center mb-6 feature-icon">
-                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
-                        </svg>
-                    </div>
-                    <h3 class="text-2xl font-bold mb-4 text-blue-900">Abertura Empresarial Express</h3>
-                    <p class="text-blue-800 mb-6 leading-relaxed">
-                        Lançamento completo em <span class="text-blue-700 font-bold">72 horas</span>.
-                        Processo 100% digital com acompanhamento em tempo real.
-                    </p>
-                    <ul class="space-y-2 text-sm text-blue-600">
-                        <li class="flex items-center"><span class="text-blue-700 mr-2">✓</span> Registro na Junta Comercial</li>
-                        <li class="flex items-center"><span class="text-blue-700 mr-2">✓</span> CNPJ e Inscrições</li>
-                        <li class="flex items-center"><span class="text-blue-700 mr-2">✓</span> Alvará Digital</li>
-                    </ul>
-                </div>
-                <div class="glass-morphism rounded-3xl p-8 hover-lift scroll-reveal feature-card group" style="animation-delay: 0.2s;">
-                    <div class="w-16 h-16 bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl flex items-center justify-center mb-6 feature-icon">
-                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
-                        </svg>
-                    </div>
-                    <h3 class="text-2xl font-bold mb-4 text-blue-900">Planejamento Tributário IA</h3>
-                    <p class="text-blue-800 mb-6 leading-relaxed">
-                        Inteligência artificial para <span class="text-blue-700 font-bold">reduzir até 40%</span>
-                        dos seus impostos legalmente.
-                    </p>
-                    <ul class="space-y-2 text-sm text-blue-600">
-                        <li class="flex items-center"><span class="text-blue-700 mr-2">✓</span> Análise Preditiva</li>
-                        <li class="flex items-center"><span class="text-blue-700 mr-2">✓</span> Simulações Avançadas</li>
-                        <li class="flex items-center"><span class="text-blue-700 mr-2">✓</span> Monitoramento 24/7</li>
-                    </ul>
-                </div>
-                <div class="glass-morphism rounded-3xl p-8 hover-lift scroll-reveal feature-card group" style="animation-delay: 0.4s;">
-                    <div class="w-16 h-16 bg-gradient-to-br from-blue-700 to-blue-900 rounded-2xl flex items-center justify-center mb-6 feature-icon">
-                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
-                        </svg>
-                    </div>
-                    <h3 class="text-2xl font-bold mb-4 text-blue-900">Gestão Financeira 360°</h3>
-                    <p class="text-blue-800 mb-6 leading-relaxed">
-                        Dashboard inteligente com <span class="text-blue-700 font-bold">insights em tempo real</span>
-                        para decisões estratégicas.
-                    </p>
-                    <ul class="space-y-2 text-sm text-blue-600">
-                        <li class="flex items-center"><span class="text-blue-700 mr-2">✓</span> Relatórios Automatizados</li>
-                        <li class="flex items-center"><span class="text-blue-700 mr-2">✓</span> Previsão de Fluxo</li>
-                        <li class="flex items-center"><span class="text-blue-700 mr-2">✓</span> Consultoria Estratégica</li>
-                    </ul>
-                </div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <!-- CARD 1 -->
+    <div class="glass-morphism rounded-3xl p-8 hover-lift scroll-reveal feature-card group flex flex-col justify-between">
+        <div>
+            <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-700 rounded-2xl flex items-center justify-center mb-6 feature-icon">
+                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                </svg>
             </div>
+            <h3 class="text-2xl font-bold mb-4 text-blue-900">Abertura Empresarial</h3>
+            <p class="text-blue-800 mb-6 leading-relaxed">
+                Abra sua empresa em <span class="text-blue-700 font-bold">72 horas</span>. 100% digital com acompanhamento em tempo real.
+            </p>
+        </div>
+        <ul class="space-y-2 text-sm text-blue-600 mt-auto">
+            <li class="flex items-start"><span class="text-blue-700 mr-2">✓</span> Registro na Junta Comercial</li>
+            <li class="flex items-start"><span class="text-blue-700 mr-2">✓</span> CNPJ e Inscrições</li>
+            <li class="flex items-start"><span class="text-blue-700 mr-2">✓</span> Alvará Digital</li>
+        </ul>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="glass-morphism rounded-3xl p-8 hover-lift scroll-reveal feature-card group flex flex-col justify-between" style="animation-delay: 0.2s;">
+        <div>
+            <div class="w-16 h-16 bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl flex items-center justify-center mb-6 feature-icon">
+                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                </svg>
+            </div>
+            <h3 class="text-2xl font-bold mb-4 text-blue-900">Planejamento Tributário</h3>
+            <p class="text-blue-800 mb-6 leading-relaxed">
+                <span class="text-blue-700 font-bold">reduza em até 40%</span>
+                os seus impostos legalmente. Com estratégias fiscais efetivas.
+            </p>
+        </div>
+        <ul class="space-y-2 text-sm text-blue-600 mt-auto">
+            <li class="flex items-start"><span class="text-blue-700 mr-2">✓</span> Análise Preditiva</li>
+            <li class="flex items-start"><span class="text-blue-700 mr-2">✓</span> Análise Fiscal Profunda</li>
+            <li class="flex items-start"><span class="text-blue-700 mr-2">✓</span> Estratégias Fiscais</li>
+        </ul>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="glass-morphism rounded-3xl p-8 hover-lift scroll-reveal feature-card group flex flex-col justify-between" style="animation-delay: 0.4s;">
+        <div>
+            <div class="w-16 h-16 bg-gradient-to-br from-blue-700 to-blue-900 rounded-2xl flex items-center justify-center mb-6 feature-icon">
+                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                </svg>
+            </div>
+            <h3 class="text-2xl font-bold mb-4 text-blue-900">Gestão Financeira 360°</h3>
+            <p class="text-blue-800 mb-6 leading-relaxed">
+                Deixa com a gente! <span class="text-blue-700 font-bold">A J&J cuida da contabilidade do seu negócio.</span>
+            </p>
+        </div>
+        <ul class="space-y-2 text-sm text-blue-600 mt-auto">
+            <li class="flex items-start"><span class="text-blue-700 mr-2">✓</span> Relatórios Financeiros Detalhados</li>
+            <li class="flex items-start"><span class="text-blue-700 mr-2">✓</span> Consultoria Estratégica Personalizada</li>
+        </ul>
+    </div>
+</div>
+
         </div>
     </section>
 
@@ -348,7 +365,7 @@
                 <div class="scroll-reveal">
                     <div class="relative">
                         <div class="absolute -inset-4 bg-gradient-to-r from-blue-200 to-blue-400 rounded-3xl blur opacity-30"></div>
-                        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=400&fit=crop&crop=faces"
+                        <img src="src/imgs/contabilidade.webp" loading="lazy"
                              alt="Escritório Moderno J&J"
                              class="relative rounded-3xl shadow-2xl w-full h-80 object-cover">
                     </div>
@@ -360,33 +377,34 @@
                         <span class="text-blue-900">em</span> <span class="text-blue-700">Simplicidade</span>
                     </h2>
                     <p class="text-xl text-blue-700 mb-8 leading-relaxed">
-                        Na J&J Contabilidade, combinamos <span class="text-blue-400 font-semibold">expertise tradicional</span>
-                        com <span class="text-blue-700 font-semibold">tecnologia de ponta</span> para criar soluções
-                        que realmente fazem a diferença no seu negócio.
+                        Na J&J Contabilidade, combinamos <span class="text-blue-400 font-semibold">expertise</span>
+                        com <span class="text-blue-400 font-semibold">tecnologia de ponta</span> para oferecer soluções
+                        que realmente fazem a diferença para o seu negócio.
                     </p>
                     <div class="space-y-4 mb-8">
                         <div class="flex items-center space-x-4">
-                            <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center">
+                            <div class="w-12 h-12 bg-blue-700 rounded-full flex items-center justify-center">
                                 <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
                                 </svg>
                             </div>
                             <div>
-                                <h4 class="text-lg font-bold text-blue-900">Inovação Constante</h4>
+                                <h4 class="text-lg font-bold text-blue-900">Inovação</h4>
                                 <p class="text-blue-600">Sempre à frente com as últimas tecnologias</p>
                             </div>
                         </div>
                         <div class="flex items-center space-x-4">
-                            <div class="w-12 h-12 bg-blue-400 rounded-full flex items-center justify-center">
-                                <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
-                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            <div class="w-12 h-12 bg-blue-700 rounded-full flex items-center justify-center">
+                                <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M3 17h2v-4H3v4zm4 0h2v-7H7v7zm4 0h2v-10h-2v10zm4 0h2v-13h-2v13zm4 0h2v-2h-2v2z"/>
                                 </svg>
                             </div>
                             <div>
-                                <h4 class="text-lg font-bold text-blue-900">Resultados Garantidos</h4>
+                                <h4 class="text-lg font-bold text-blue-900">Resultado</h4>
                                 <p class="text-blue-600">Compromisso com sua prosperidade</p>
                             </div>
                         </div>
+
                         <div class="flex items-center space-x-4">
                             <div class="w-12 h-12 bg-blue-700 rounded-full flex items-center justify-center">
                                 <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
@@ -394,17 +412,17 @@
                                 </svg>
                             </div>
                             <div>
-                                <h4 class="text-lg font-bold text-blue-900">Atendimento Premium</h4>
+                                <h4 class="text-lg font-bold text-blue-900">Atendimento</h4>
                                 <p class="text-blue-600">Suporte dedicado quando você precisar</p>
                             </div>
                         </div>
                     </div>
-                    <a href="https://wa.me/5519999999999" target="_blank"
+                    <a href="https://wa.me/55149971596119" rel=”noopener” target="_blank"
                        class="inline-flex items-center btn-primary font-bold py-4 px-8 rounded-full text-lg">
                         <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
                             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
                         </svg>
-                        Vamos Conversar Agora
+                        Quero Conversar Agora
                     </a>
                 </div>
             </div>
@@ -417,81 +435,79 @@
         <div class="relative z-10 text-center max-w-4xl mx-auto">
             <div class="scroll-reveal">
                 <h2 class="text-5xl md:text-6xl font-black mb-6 text-white">
-                    Pronto para <span class="text-blue-200">Decolar</span>?
+                    Pronto para <span class="text-blue-200">Começar</span>?
                 </h2>
                 <p class="text-xl text-white/90 mb-8 leading-relaxed">
                     Transforme sua empresa em uma máquina de resultados.
-                    <span class="font-bold">Consultoria gratuita</span> para mostrar exatamente como.
+                    <span class="font-bold">Vamos conversar</span> sobre como podemos ajudar a sua empresa.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
-                    <a href="https://wa.me/5519999999999" target="_blank"
+                    <a href="https://wa.me/55149971596119" rel=”noopener” target="_blank"
                        class="group relative bg-white text-blue-900 font-black py-6 px-12 rounded-full text-xl shadow-2xl hover:shadow-blue-200/25 transition-all duration-300 transform hover:scale-110 whatsapp-pulse">
                         <span class="relative z-10 flex items-center">
                             <svg class="w-8 h-8 mr-3 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
                                 <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
                             </svg>
-                            WhatsApp Direto
+                            Chamar no WhatsApp
                         </span>
                     </a>
-                    <div class="text-white/80 text-lg">
-                        <div class="font-bold mb-1">Resposta em até 5 minutos</div>
-                        <div class="text-sm">Atendimento premium 24/7</div>
-                    </div>
-                </div>
-                <!-- Trust badges -->
-                <div class="flex justify-center items-center space-x-8 text-white/80 flex-wrap gap-4">
-                    <div class="flex items-center space-x-2">
-                        <svg class="w-6 h-6 text-blue-200" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                        <span>98% Satisfação</span>
-                    </div>
-                    <div class="flex items-center space-x-2">
-                        <svg class="w-6 h-6 text-blue-100" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                        </svg>
-                        <span>15 Anos Experiência</span>
-                    </div>
-                    <div class="flex items-center space-x-2">
-                        <svg class="w-6 h-6 text-blue-200" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"/>
-                        </svg>
-                        <span>500+ Clientes</span>
-                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-white py-8 px-4 border-t border-blue-100">
-        <div class="max-w-4xl mx-auto text-center">
-            <div class="flex flex-col items-center mb-4">
-                <!-- Espaço para logo no footer -->
-                <img src="logo.png" alt="Logo J&J" class="h-10 w-10 rounded-full bg-blue-100 object-contain shadow mb-2" />
-                <div class="text-2xl font-bold text-gradient">J&J Contabilidade</div>
-            </div>
-            <p class="text-blue-700 mb-4">Transformando negócios através da excelência contábil</p>
-            <div class="flex justify-center space-x-6 text-blue-500 flex-wrap gap-2">
-                <a href="#" class="hover:text-blue-800 transition">Política de Privacidade</a>
-                <a href="#" class="hover:text-blue-800 transition">Termos de Uso</a>
-                <a href="https://wa.me/5519999999999" target="_blank" class="hover:text-blue-700 transition">Contato</a>
-            </div>
-            <div class="mt-6 pt-6 border-t border-blue-100 text-blue-500 text-sm">
-                © 2025 J&J Contabilidade. Todos os direitos reservados.
+    <footer class="bg-blue-950 text-white py-10 px-6">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-10 text-center md:text-left">
+        
+        <!-- Identidade da Empresa -->
+        <div>
+        <div class="flex justify-center md:justify-start items-center gap-3 mb-3">
+            <img src="src/imgs/Logo-J&J.webp" alt="Logo J&J" class="h-12 w-12 rounded-full bg-white p-1 shadow-lg" />
+            <div>
+            <p class="text-lg font-semibold">J&J Contabilidade</p>
+            <p class="text-sm text-blue-300">CNPJ: 00.000.000/0001-00</p>
             </div>
         </div>
+        <p class="text-sm text-blue-200">Revolucionando a forma de fazer contabilidade.</p>
+        </div>
+
+        <!-- Horário de Atendimento -->
+        <div>
+        <h4 class="text-md font-semibold mb-2 text-white">Atendimento</h4>
+        <p class="text-sm text-blue-200">Segunda a Sexta</p>
+        <p class="text-sm text-blue-200">08h às 17:30h</p>
+        <p class="text-sm text-blue-200 mt-2">Fechado aos finais de semana e feriados</p>
+        </div>
+
+        <!-- Contato -->
+        <div>
+        <h4 class="text-md font-semibold mb-2 text-white">Contato</h4>
+        <p class="text-sm text-blue-200"><a href="tel:+5514997159611" class="hover:text-white">(14) 99715-9611</a></p>
+        </div>
+    </div>
+
+    <!-- Rodapé inferior -->
+    <div class="mt-10 pt-6 border-t border-blue-800 text-center text-sm text-blue-400">
+        © 2025 J&J Contabilidade. Todos os direitos reservados.
+    </div>
     </footer>
 
+
     <!-- WhatsApp Floating Button -->
-    <div class="fixed bottom-6 right-6 z-50">
-        <a href="https://wa.me/5519999999999" target="_blank"
-           class="bg-blue-500 hover:bg-blue-600 text-white p-4 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-110 whatsapp-pulse">
-            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
-            </svg>
-        </a>
-    </div>
+    <a
+    href="https://api.whatsapp.com/send/?phone="
+    rel=”noopener” target="_blank"
+    rel="noopener noreferrer"
+    class="fixed bottom-6 right-6 z-50 bg-blue-500 hover:bg-[#1EBE5D] text-white w-14 h-14 flex items-center justify-center rounded-full shadow-lg transition-transform duration-300 hover:scale-110"
+    aria-label="Fale conosco no WhatsApp"
+    >
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
+      <path
+        d="M12 0a12 12 0 00-9.42 18.94L0 24l5.2-2.05A12 12 0 1012 0zm6.62 17.18c-.27.77-1.38 1.42-1.9 1.5s-1.03.22-3.57-.75a12.12 12.12 0 01-4.46-3.2 9.4 9.4 0 01-2-3.1c-.05-.12-.48-1.17-.48-2.23a4.3 4.3 0 011.4-3.23A1.54 1.54 0 018.4 6c.18 0 .35.01.5.01.16.01.38-.06.59.45.23.56.77 1.93.84 2.07.07.15.1.34.02.55-.08.2-.12.32-.23.5s-.26.39-.38.53c-.13.13-.27.27-.12.54a8.28 8.28 0 001.46 1.92 8.8 8.8 0 002.65 1.54c.3.13.48.11.66-.07.2-.21.75-.85.95-1.15s.4-.25.67-.15.9.43 1.05.51c.15.07.38.17.45.27.06.1.06.79-.2 1.56z"
+      />
+    </svg>
+  </a>
 
     <script>
         // Smooth scrolling for navigation links
@@ -594,4 +610,3 @@
         </script>
     </body>
 </html>
-
