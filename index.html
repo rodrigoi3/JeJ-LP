@@ -1,236 +1,237 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <!-- SEO Meta Tags -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>J&J - Consultoria Contábil</title>
-  <meta name="description" content="Consultoria contábil especializada para empresas de todos os portes. Soluções em contabilidade, gestão fiscal, planejamento tributário e abertura de empresas. Atendimento personalizado para o seu negócio.">
-  <meta name="keywords" content="consultoria contábil, contabilidade empresarial, gestão fiscal, planejamento tributário, abertura de empresas, assessoria contábil, serviços contábeis, consultoria financeira, escritório de contabilidade, consultor contábil">
-  <meta name="author" content="i3digital">
-  <meta name="robots" content="index, follow">
-
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.jjconsultoriacontabil.com.br/">
-  <meta property="og:title" content="J&J - Consultoria Contábil">
-  <meta property="og:description" content="Consultoria contábil especializada para empresas de todos os portes. Soluções em contabilidade, gestão fiscal, planejamento tributário e abertura de empresas. Atendimento personalizado para o seu negócio.">
-
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://www.jjconsultoriacontabil.com.br/">
-  <meta property="twitter:title" content="J&J - Consultoria Contábil">
-  <meta property="twitter:description" content="Consultoria contábil especializada para empresas de todos os portes. Soluções em contabilidade, gestão fiscal, planejamento tributário e abertura de empresas. Atendimento personalizado para o seu negócio.">
-
-  <!-- Canonical URL -->
-  <link rel="canonical" href="https://www.jjconsultoriacontabil.com.br/">
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="src/imgs/jj-favicon.ico">
-
-  <!-- Structured Data (JSON-LD) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "J&J - Consultoria Contábil",
-    "url": "https://www.jjconsultoriacontabil.com.br",
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+55-14-99715-9611",
-      "contactType": "Customer Service"
-    },
-  }
-  </script>
-
-  <!-- Fonts & Preconnect -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-  <!-- Google Tag Manager Preconnect -->
-  <link rel="preconnect" href="https://www.googletagmanager.com">
-
-  <!-- Tailwind CSS -->
-  <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        * {
-            font-family: 'Inter', sans-serif;
-        }
-
-        .gradient-bg {
-            background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
-        }
-
-        .text-gradient {
-            background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .glass-morphism {
-            background: rgba(255, 255, 255, 0.7);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(37, 99, 235, 0.12);
-        }
-
-        .hover-lift {
-            transition: all 0.3s ease;
-        }
-
-        .hover-lift:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 25px 50px rgba(37, 99, 235, 0.08);
-        }
-
-        @keyframes float {
-            0%, 100% { transform: translateY(0px); }
-            50% { transform: translateY(-20px); }
-        }
-
-        @keyframes pulse-glow {
-            0%, 100% {
-                box-shadow: 0 0 30px rgba(37, 99, 235, 0.2);
-            }
-            50% {
-                box-shadow: 0 0 50px rgba(37, 99, 235, 0.5);
-            }
-        }
-
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(50px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        @keyframes bounce-slow {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
-        }
-
-        .animate-float {
-            animation: float 6s ease-in-out infinite;
-        }
-
-        .animate-pulse-glow {
-            animation: pulse-glow 2s ease-in-out infinite;
-        }
-
-        .animate-fadeInUp {
-            animation: fadeInUp 1s ease-out forwards;
-            opacity: 0;
-        }
-
-        .animate-bounce-slow {
-            animation: bounce-slow 3s ease-in-out infinite;
-        }
-
-        .scroll-reveal {
-            opacity: 0;
-            transform: translateY(50px);
-            transition: all 0.8s ease;
-        }
-
-        .scroll-reveal.revealed {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        .whatsapp-pulse {
-            animation: pulse 2s infinite;
-        }
-
-        @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-            100% { transform: scale(1); }
-        }
-
-        .bg-pattern {
-            background-image:
-                radial-gradient(circle at 25% 25%, rgba(37, 99, 235, 0.08) 0%, transparent 60%),
-                radial-gradient(circle at 75% 75%, rgba(30, 64, 175, 0.08) 0%, transparent 60%);
-        }
-
-        .btn-primary {
-            background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
-            color: #fff;
-            box-shadow: 0 10px 30px rgba(37, 99, 235, 0.15);
-            transition: all 0.3s ease;
-        }
-
-        .btn-primary:hover {
-            transform: translateY(-2px);
-            background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
-            box-shadow: 0 15px 40px rgba(37, 99, 235, 0.25);
-        }
-
-        .btn-secondary {
-            background: transparent;
-            border: 2px solid #2563eb;
-            color: #2563eb;
-            transition: all 0.3s ease;
-        }
-
-        .btn-secondary:hover {
-            background: #2563eb;
-            color: white;
-            transform: translateY(-2px);
-        }
-
-        .feature-icon {
-            transition: all 0.3s ease;
-        }
-
-        .feature-card:hover .feature-icon {
-            transform: scale(1.1) rotate(5deg);
-        }
-
-        .number-counter {
-            font-weight: 900;
-            font-size: 3rem;
-        }
-
-        .floating-shapes {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-            z-index: -1;
-        }
-
-        .floating-shapes::before,
-        .floating-shapes::after {
-            content: '';
-            position: absolute;
-            width: 300px;
-            height: 300px;
-            border-radius: 50%;
-            filter: blur(40px);
-            opacity: 0.13;
-            animation: float 8s ease-in-out infinite;
-        }
-
-        .floating-shapes::before {
-            background: linear-gradient(45deg, #2563eb, #1e40af);
-            top: 10%;
-            left: 10%;
-            animation-delay: 0s;
-        }
-
-        .floating-shapes::after {
-            background: linear-gradient(45deg, #2563eb, #1e40af);
-            bottom: 10%;
-            right: 10%;
-            animation-delay: 4s;
-        }
-    </style>
-</head>
+    <head>
+    <!-- SEO Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J&J - Consultoria Contábil</title>
+    <meta name="description" content="Consultoria contábil especializada para empresas de todos os portes. Soluções em contabilidade, gestão fiscal, planejamento tributário e abertura de empresas. Atendimento personalizado para o seu negócio.">
+    <meta name="keywords" content="consultoria contábil, contabilidade empresarial, gestão fiscal, planejamento tributário, abertura de empresas, assessoria contábil, serviços contábeis, consultoria financeira, escritório de contabilidade, consultor contábil">
+    <meta name="author" content="i3digital">
+    <meta name="robots" content="index, follow">
+  
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.jjconsultoriacontabil.com.br/">
+    <meta property="og:title" content="J&J - Consultoria Contábil">
+    <meta property="og:description" content="Consultoria contábil especializada para empresas de todos os portes. Soluções em contabilidade, gestão fiscal, planejamento tributário e abertura de empresas. Atendimento personalizado para o seu negócio.">
+  
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.jjconsultoriacontabil.com.br/">
+    <meta property="twitter:title" content="J&J - Consultoria Contábil">
+    <meta property="twitter:description" content="Consultoria contábil especializada para empresas de todos os portes. Soluções em contabilidade, gestão fiscal, planejamento tributário e abertura de empresas. Atendimento personalizado para o seu negócio.">
+  
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.jjconsultoriacontabil.com.br/">
+  
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="src/imgs/jj-favicon.ico">
+  
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "J&J - Consultoria Contábil",
+      "url": "https://www.jjconsultoriacontabil.com.br",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+55-14-99715-9611",
+        "contactType": "Customer Service"
+      }
+    }
+    </script>
+  
+    <!-- Fonts & Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+    <!-- Google Tag Manager Preconnect -->
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+  
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+      <style>
+          * {
+              font-family: 'Inter', sans-serif;
+          }
+  
+          .gradient-bg {
+              background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+          }
+  
+          .text-gradient {
+              background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              background-clip: text;
+          }
+  
+          .glass-morphism {
+              background: rgba(255, 255, 255, 0.7);
+              backdrop-filter: blur(10px);
+              border: 1px solid rgba(37, 99, 235, 0.12);
+          }
+  
+          .hover-lift {
+              transition: all 0.3s ease;
+          }
+  
+          .hover-lift:hover {
+              transform: translateY(-10px);
+              box-shadow: 0 25px 50px rgba(37, 99, 235, 0.08);
+          }
+  
+          @keyframes float {
+              0%, 100% { transform: translateY(0px); }
+              50% { transform: translateY(-20px); }
+          }
+  
+          @keyframes pulse-glow {
+              0%, 100% {
+                  box-shadow: 0 0 30px rgba(37, 99, 235, 0.2);
+              }
+              50% {
+                  box-shadow: 0 0 50px rgba(37, 99, 235, 0.5);
+              }
+          }
+  
+          @keyframes fadeInUp {
+              from {
+                  opacity: 0;
+                  transform: translateY(50px);
+              }
+              to {
+                  opacity: 1;
+                  transform: translateY(0);
+              }
+          }
+  
+          @keyframes bounce-slow {
+              0%, 100% { transform: translateY(0); }
+              50% { transform: translateY(-10px); }
+          }
+  
+          .animate-float {
+              animation: float 6s ease-in-out infinite;
+          }
+  
+          .animate-pulse-glow {
+              animation: pulse-glow 2s ease-in-out infinite;
+          }
+  
+          .animate-fadeInUp {
+              animation: fadeInUp 1s ease-out forwards;
+              opacity: 0;
+          }
+  
+          .animate-bounce-slow {
+              animation: bounce-slow 3s ease-in-out infinite;
+          }
+  
+          .scroll-reveal {
+              opacity: 0;
+              transform: translateY(50px);
+              transition: all 0.8s ease;
+          }
+  
+          .scroll-reveal.revealed {
+              opacity: 1;
+              transform: translateY(0);
+          }
+  
+          .whatsapp-pulse {
+              animation: pulse 2s infinite;
+          }
+  
+          @keyframes pulse {
+              0% { transform: scale(1); }
+              50% { transform: scale(1.05); }
+              100% { transform: scale(1); }
+          }
+  
+          .bg-pattern {
+              background-image:
+                  radial-gradient(circle at 25% 25%, rgba(37, 99, 235, 0.08) 0%, transparent 60%),
+                  radial-gradient(circle at 75% 75%, rgba(30, 64, 175, 0.08) 0%, transparent 60%);
+          }
+  
+          .btn-primary {
+              background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+              color: #fff;
+              box-shadow: 0 10px 30px rgba(37, 99, 235, 0.15);
+              transition: all 0.3s ease;
+          }
+  
+          .btn-primary:hover {
+              transform: translateY(-2px);
+              background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
+              box-shadow: 0 15px 40px rgba(37, 99, 235, 0.25);
+          }
+  
+          .btn-secondary {
+              background: transparent;
+              border: 2px solid #2563eb;
+              color: #2563eb;
+              transition: all 0.3s ease;
+          }
+  
+          .btn-secondary:hover {
+              background: #2563eb;
+              color: white;
+              transform: translateY(-2px);
+          }
+  
+          .feature-icon {
+              transition: all 0.3s ease;
+          }
+  
+          .feature-card:hover .feature-icon {
+              transform: scale(1.1) rotate(5deg);
+          }
+  
+          .number-counter {
+              font-weight: 900;
+              font-size: 3rem;
+          }
+  
+          .floating-shapes {
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              overflow: hidden;
+              z-index: -1;
+          }
+  
+          .floating-shapes::before,
+          .floating-shapes::after {
+              content: '';
+              position: absolute;
+              width: 300px;
+              height: 300px;
+              border-radius: 50%;
+              filter: blur(40px);
+              opacity: 0.13;
+              animation: float 8s ease-in-out infinite;
+          }
+  
+          .floating-shapes::before {
+              background: linear-gradient(45deg, #2563eb, #1e40af);
+              top: 10%;
+              left: 10%;
+              animation-delay: 0s;
+          }
+  
+          .floating-shapes::after {
+              background: linear-gradient(45deg, #2563eb, #1e40af);
+              bottom: 10%;
+              right: 10%;
+              animation-delay: 4s;
+          }
+      </style>
+  </head>
 
 <body class="bg-white text-slate-900 overflow-x-hidden">
     <!-- Hero Section -->
@@ -247,7 +248,7 @@
                 <!-- Logo animado -->
                 <div class="mb-8">
                 <div class="w-32 h-32 mx-auto rounded-full overflow-hidden animate-pulse-glow">
-                    <img src="src/imgs/Logo-J&J.webp" alt="Logo do Cliente" class="w-full h-full object-fill" loading = "lazy"/>
+                    <img src="src/imgs/Logo-J&J.webp" alt="Logo do Cliente" class="w-full h-full object-fill" width="128" height="128" loading = "lazy"/>
                 </div>
             </div>
 
@@ -365,9 +366,9 @@
                 <div class="scroll-reveal">
                     <div class="relative">
                         <div class="absolute -inset-4 bg-gradient-to-r from-blue-200 to-blue-400 rounded-3xl blur opacity-30"></div>
-                        <img src="src/imgs/contabilidade.webp" loading=“lazy”
+                        <img src="src/imgs/contabilidade.webp"
                              alt="Escritório Moderno J&J"
-                             class="relative rounded-3xl shadow-2xl w-full h-80 object-cover">
+                             class="relative rounded-3xl shadow-2xl w-full h-80 object-cover" width="256" height="256" loading="lazy">
                     </div>
                 </div>
                 <div class="scroll-reveal">
@@ -463,7 +464,7 @@
         <!-- Identidade da Empresa -->
         <div>
         <div class="flex justify-center md:justify-start items-center gap-3 mb-3">
-            <img src="src/imgs/Logo-J&J.webp" alt="Logo J&J" class="h-12 w-12 rounded-full bg-white p-1 shadow-lg" loading=“lazy”/>
+            <img src="src/imgs/Logo-J&J.webp" alt="Logo J&J" class="h-12 w-12 rounded-full bg-white p-1 shadow-lg" width="128" height="128" loading="lazy"/>
             <div>
             <p class="text-sm font-semibold">J&J Consultoria Contábil</p>
             <p class="text-sm text-blue-300">CNPJ: 41.630.956/0001-54</p>
